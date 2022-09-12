@@ -1,0 +1,400 @@
+.homain {
+  background: url("../images/Ubuntu5.jpg") no-repeat;
+  background-size: cover;
+  min-height: 111vh;
+}
+
+span{
+  color: #ff5900;
+}
+
+span1{
+  color: blue;
+}
+
+.overalCnt {
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+h3{
+  font-size: 30px;
+}
+
+.overalCnt h1 {
+  font-size: 3rem;
+}
+
+.overalCnt p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.gred-baton {
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #cfae41 0%,
+    #ff8000 51%,
+    #dc3610 100%
+  );
+  border-radius: 10px;
+  background-size: 200% auto;
+  transition: 0.3s ease-in-out;
+}
+
+.overalCnt .gred-baton {
+  width: 200px;
+  height: 45px;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+
+.gred-baton:hover {
+  background-position: right center;
+}
+
+@media screen and (max-width: 600px) {
+  .main-content h1 {
+    font-size: 2.25rem;
+  }
+
+  .overalCnt p {
+    font-size: 1rem;
+  }
+
+  .gred-baton {
+    width: 175px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+}
+
+.about {
+  padding: 1rem;
+  text-align: center;
+}
+
+.about > h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.about-subfast{
+  font-size: 30px;
+  display: flex;
+  max-width: 100rem;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+hr{
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.about-subfast > img {
+  max-height: 250px;
+  width: 300px;
+  max-width: 90%;
+  animation: animateimage 1s linear;
+  border-radius: 100rem;
+}
+
+@keyframes animateimage {
+  from {
+    transform: translateY(-15px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about-subfast .nextclorange {
+  padding: 1rem;
+  animation: animatetext 0.5s linear;
+}
+
+
+
+.about-subfast .nextclorange p {
+  font-size: 14px;
+}
+
+.about-subfast .gred-baton {
+  width: 100px;
+  margin-top: 5px;
+  height: 30px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-subfast{
+    flex-direction: column;
+  }
+
+  .about-subfast:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+}
+
+.about-subnext{
+  font-size: 20px;
+  display: flex;
+  max-width: 75rem;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.about-subnextc{
+  font-size: 28px;
+  display: flex;
+  max-width: 75rem;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+
+.about-subnext > img {
+  max-height: 250px;
+  width: 300px;
+  max-width: 90%;
+  animation: animateimage 1s linear;
+  border-radius: 20px;
+}
+
+.about-subnextc > img {
+  max-height: 250px;
+  width: 300px;
+  max-width: 90%;
+  animation: animateimage 1s linear;
+  border-radius: 100px;
+}
+
+@keyframes animateimage {
+  from {
+    transform: translateY(-15px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about-subnext .nextclorange {
+  padding: 1rem;
+  animation: animatetext 0.5s linear;
+  font-size: 20px;
+}
+
+.about-subnextc .nextclorange {
+  padding: 1rem;
+  animation: animatetext 0.5s linear;
+}
+
+@keyframes animatetext {
+  from {
+    transform: translateY(15px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about-subnext .nextclorange p {
+  font-size: 20px;
+}
+
+.about-subnextc .nextclorange p {
+  font-size: 20px;
+}
+
+.about-subnext .gred-baton {
+  width: 100px;
+  margin-top: 5px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.about-subnextc .gred-baton {
+  width: 51.5rem;
+  margin-top: 5px;
+  height: 30px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-subnext {
+    flex-direction: column;
+  }
+
+  .about-subnext:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-subnextc {
+    flex-direction: column;
+  }
+
+  .about-subnextc:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+}
+
+.about-companies{
+    max-width: 800px;
+    width: 90%;
+    background-color: #f1f1f1;
+    padding: 1rem .5rem;
+    margin:1rem auto;
+}
+
+.about-companies h1{
+    font-size: 2rem;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.about-companies h1 span{
+    color: #000;
+}
+
+.about-companies .company-logos{
+    display: flex;
+    justify-content: space-evenly;
+    color: #666;
+    font-size: 2rem;
+    transition: .3s ease-out;
+    max-width: 75%;
+    margin: 0pc auto;
+}
+
+.about-companies .company-logos .fa:hover{
+    color: #000;
+    transition: .5s ease-in-out;
+}
+
+@media screen and (max-width:750px) {
+    .about-companies h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-companies h1{
+        font-size: 1.2rem;
+    }
+
+    .about-companies .company-logos{
+        font-size: 1rem;
+    }
+}
+
+.Sent{
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+
+
+
+.Sent{
+  width: 250px;
+  height: 300px;
+  background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%);
+  position: absolute;
+  top: 53rem;
+  left: 82.5rem;
+  border-radius: 11px;
+  padding: 25px;
+}
+
+.Sent h2{
+  width: 200px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgb(235, 139, 30);
+  border-radius: 15px;
+  margin: 3px;
+  padding: 9px;
+  
+}
+
+.Sent input{
+  width: 200px;
+  height: 20px;
+  background: transparent;
+  border-bottom: 2px solid rgb(248, 6, 228);
+  border-top: rgb(238, 123, 8);
+  border-right: #ff720f;
+  border-left: rgb(247, 148, 10);
+  color: white;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-top: 33px;
+  font-family: sans-serif;
+}
+
+.Sent input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: whitesmoke;
+  font-family: Arial;
+}
+
+button{
+  width: 200px;
+  height: 35px;
+  background: rgb(250, 201, 3);
+  border: 3px;
+  margin-top: 25px;
+  font-size: 20px;
+  border-radius: 12.5px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+button:hover{
+  background: #ff5e00;
+  color: #fff;
+}
+
+button a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.Sent .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18;
+  padding-top: 15px;
+  text-align: center;
+
+}
+
+.Sent .link a{
+  text-decoration: none;
+  color: #ff5e00;
+}

@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu;
+    scroll-behavior: inherit;
+}
+
+body{
+    min-height: 109vh;
+}
+
+.copyright{
+    text-align: center;
+    background-image: url(../images/Ubuntu6.jpg);
+    padding: 2.22rem;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: #ff4d00;
+}
+
+section .homain .brand img{
+    border-radius: 100rem;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 21px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 1px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: #ff7200;
+}

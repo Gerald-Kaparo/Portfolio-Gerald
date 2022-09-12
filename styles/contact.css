@@ -1,0 +1,169 @@
+.findMe {
+  background: url("../images/21.jpg");
+  color: #fff;
+  min-height: 100vh;
+}
+
+.TextMe{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    min-width: 75%;
+    text-align: center;
+}
+
+.TextMe h1{
+    font-size: 2rem;
+}
+
+.TextMe p{
+    font-size: 1.25rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.TextMe a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.TextMe img {
+    max-height: 250px;
+    max-width: 300px;
+    max-width: 90%;
+    animation: animateimage 1s linear;
+    border-radius: 100px;
+    padding-left: 2rem;
+  }
+
+
+
+.TextMe a::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: chocolate;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+}
+
+.TextMe a:hover::before{
+    transform: scaleX(1);
+}
+
+@media screen and (max-width: 500px) {
+    .TextMe{
+        width: 90%;
+    }
+
+    .TextMe h1{
+        font-size: 2rem;
+    }
+
+    .TextMe p{
+        font-size: 1rem;
+    }
+}
+
+.Sentfrm{
+    text-align: center;
+    padding: 1rem;
+}
+
+.Sentfrm form{
+    max-width: 388px;
+    margin:2rem auto;
+    display: flex;
+    flex-direction: column
+}
+
+.Sentfrm form input{
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.Sentfrm form textarea{
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.Sentfrm form input:focus, .contact-form form textarea:focus{
+    outline: 1px solid rgb(225, 153, 65);
+}
+
+.Sentfrm form button{
+    background-color: rgb(129, 9, 9);
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin:5px 0;
+    transition: .3s ease-in-out;
+}
+
+.Sentfrm form button:hover{
+    background-color: rgb(244, 21, 28);
+}
+
+.social-medias{
+    max-width: 500px;
+    margin:0 auto;
+    text-align: left;
+}
+
+.social-medias h3{
+    max-width: 500px;
+    margin:0 auto;
+    text-align: left;
+    padding-left: 3.5rem;
+}
+
+
+.social-medias ul li{
+    list-style: none;
+    justify-content: center;
+
+}
+
+.social-medias ul li a{
+    text-decoration: none;
+    color: rgb(238, 17, 17);
+    padding-left: 3.5rem;
+    justify-items: center;
+}
+
+.social-medias ul li a:hover{
+    color: rgb(218, 31, 31);
+}
+
+.social-medias ul li a i{
+    color: rgb(139, 31, 17);
+    margin-right: 5px;
+}
+
+.social-medias ul li a:hover i{
+    color: rgb(245, 40, 13);
+}
+
+img{
+    justify-items: center;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 14rem;
+    padding-right: 5rem;
+    align-items: flex-end;
+    border-radius: 100rem;
+}
