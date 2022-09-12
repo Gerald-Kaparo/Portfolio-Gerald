@@ -11,7 +11,7 @@ table{
     height: 250px;
     top: 50%;
     left: 50%;
-    background: linear-gradient(to top, rgba(0,0,0,0.1)50%, rgba(0,0,0,0.1)50%);
+    background: linear-gradient(to top, rgba(0,0,0,0.1)50%, rgba(0, 0, 0, 0.1)50%);
     background: none;
     width: 750px;
     backdrop-filter: blur(.1px);
