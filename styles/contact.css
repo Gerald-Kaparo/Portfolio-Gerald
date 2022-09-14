@@ -47,7 +47,7 @@
     position: absolute;
     top:0;
     left: 0;
-    background-color: chocolate;
+    background-color: #f1600c;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -100,11 +100,11 @@
 }
 
 .Sentfrm form input:focus, .contact-form form textarea:focus{
-    outline: 1px solid rgb(225, 153, 65);
+    outline: 1px solid #f1600c;
 }
 
 .Sentfrm form button{
-    background-color: rgb(129, 9, 9);
+    background-color: #f1600c;
     height: 40px;
     color: #fff;
     border-radius: 5px;
@@ -115,7 +115,7 @@
 }
 
 .Sentfrm form button:hover{
-    background-color: rgb(244, 21, 28);
+    background-color: #f1600c;
 }
 
 .social-medias{
@@ -140,22 +140,22 @@
 
 .social-medias ul li a{
     text-decoration: none;
-    color: rgb(238, 17, 17);
+    color: #f1600c;
     padding-left: 3.5rem;
     justify-items: center;
 }
 
 .social-medias ul li a:hover{
-    color: rgb(218, 31, 31);
+    color: #f1600c;
 }
 
 .social-medias ul li a i{
-    color: rgb(139, 31, 17);
+    color: #f1600c;
     margin-right: 5px;
 }
 
 .social-medias ul li a:hover i{
-    color: rgb(245, 40, 13);
+    color: #f1600c;
 }
 
 img{

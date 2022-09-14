@@ -9,7 +9,7 @@ span{
 }
 
 span1{
-  color: blue;
+  color: #000;
 }
 
 .overalCnt {
@@ -41,9 +41,9 @@ h3{
   color: #fff;
   background-image: linear-gradient(
     to right,
-    #cfae41 0%,
-    #ff8000 51%,
-    #dc3610 100%
+    #ff5900 0%,
+    #fff 51%,
+    #ff5900 100%
   );
   border-radius: 10px;
   background-size: 200% auto;
@@ -278,7 +278,7 @@ hr{
 .about-companies .company-logos{
     display: flex;
     justify-content: space-evenly;
-    color: #666;
+    color: #000;
     font-size: 2rem;
     transition: .3s ease-out;
     max-width: 75%;
@@ -286,7 +286,7 @@ hr{
 }
 
 .about-companies .company-logos .fa:hover{
-    color: #000;
+    color: #ff5900;
     transition: .5s ease-in-out;
 }
 
@@ -331,7 +331,7 @@ hr{
   text-align: center;
   color: #fff;
   font-size: 15px;
-  background-color: rgb(235, 139, 30);
+  background-color: #ff5900;
   border-radius: 15px;
   margin: 3px;
   padding: 9px;
@@ -342,10 +342,10 @@ hr{
   width: 200px;
   height: 20px;
   background: transparent;
-  border-bottom: 2px solid rgb(248, 6, 228);
-  border-top: rgb(238, 123, 8);
+  border-bottom: 2px solid #ff5900;
+  border-top: #ff5900;
   border-right: #ff720f;
-  border-left: rgb(247, 148, 10);
+  border-left: #ff5900;
   color: white;
   font-size: 17px;
   letter-spacing: 2px;
@@ -365,7 +365,7 @@ hr{
 button{
   width: 200px;
   height: 35px;
-  background: rgb(250, 201, 3);
+  background: #ff5900;
   border: 3px;
   margin-top: 25px;
   font-size: 20px;
@@ -376,7 +376,7 @@ button{
 }
 
 button:hover{
-  background: #ff5e00;
+  background: #000;
   color: #fff;
 }
 
@@ -396,5 +396,5 @@ button a{
 
 .Sent .link a{
   text-decoration: none;
-  color: #ff5e00;
+  color: #ff5900;
 }
